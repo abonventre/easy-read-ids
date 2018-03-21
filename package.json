@@ -1,0 +1,21 @@
+{
+  "name": "easy-read-ids",
+  "version": "1.0.1",
+  "description": "Generate easy to read/spell ids using simple words and numbers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "readable",
+    "ids",
+    "easy"
+  ],
+  "repository" :
+    {
+      "type" : "git",
+      "url" : "https://github.com/abonventre/easy-read-ids.git"
+    },
+  "author": "Anthony Bonventre <abonventre@gmail.com> (http://anthonybonventre.com)",
+  "license": "ISC"
+}
