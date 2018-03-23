@@ -122,10 +122,10 @@ function rndArray(array) {
 }
 
 // Generate an easy-read-id using an optional list, seperator and max number
-exports.generate = function(list, maxRandom, seperator) {
+exports.generate = function(list, maxRandom, separator) {
   let componentsList = list || ['adjective', 'animal', 'number'];
   let max = maxRandom || 100;
-  let joinSeperator = seperator || '-';
+  let joinSeparator = separator || '-';
   let readableID = [];
   let elements = {
     adjective: rndArray(exports.adjective),
@@ -141,7 +141,7 @@ exports.generate = function(list, maxRandom, seperator) {
     readableID.push(elements[componentsList[i]]);
   }
 
-  return readableID.join(joinSeperator);
+  return readableID.join(joinSeparator);
 }
 
 
@@ -161,8 +161,10 @@ exports.getIDSpace = function(list, maxRandom) {
   return space;
 }
 
-for (var i = 0; i < 20; i++) {
-  console.log(exports.generate(['color', 'action', 'adjective', 'animal', 'number'], 100, ' | '));
-}
-
-console.log(exports.getIDSpace());
+// Testing... replace with actual testing.
+//
+// for (var i = 0; i < 20; i++) {
+//   console.log(exports.generate(['color', 'action', 'adjective', 'animal', 'number'], 500, ' | '));
+// }
+//
+// console.log(exports.getIDSpace(['color', 'action', 'adjective', 'animal', 'number'], 500));
