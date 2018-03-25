@@ -1,6 +1,6 @@
 {
   "name": "easy-read-ids",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Generate easy to read/spell ids using simple words and numbers.",
   "main": "index.js",
   "scripts": {
