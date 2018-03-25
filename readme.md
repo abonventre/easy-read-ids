@@ -43,7 +43,7 @@ For more customization check out the api!
 
 *elements*: `array` of elements you want to be in the generated id (options include `action`, `animal`, `color`, `nautical`, `adjective`, `number`) Default is `['adjective', 'animal', 'number']`
 
-*maxNumber*: `integer` of the maximum number to use for the random number if included in the elements array. i.e. `500` would be generate a number from `0-500` instead of the default `0-100`
+*maxNumber*: `integer` of the maximum number to use for the random number if included in the elements array. i.e. `500` would generate a number from `0-500` instead of the default `0-100`
 
 *separator*: `string` that will replace the separator between elements. Default is `-`
 
