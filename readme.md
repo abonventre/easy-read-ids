@@ -29,7 +29,7 @@ $ npm install easy-read-ids
 For a simple `adjective`-`animal`-`number(0-100)` just try:
 
 ```javascript
-const erid = require('easy-read-id');
+const erid = require('easy-read-ids');
 
 erid.generate();
 // harmless-dingo-2
